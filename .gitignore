@@ -1,0 +1,4 @@
+app/.elasticbeanstalk/*
+app/!.elasticbeanstalk/*.cfg.yml
+app/!.elasticbeanstalk/*.global.yml
+

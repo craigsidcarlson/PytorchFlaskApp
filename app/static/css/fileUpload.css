@@ -1,0 +1,65 @@
+.droparea {
+	width: 200px;
+	height: 200px;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: grey;
+	border-radius: 100px;
+	line-height:200px;
+	
+	position: relative;
+	left: 0;
+	top: 35%;
+	margin: 0 auto;
+	text-align: center;
+	color: transparent;
+	
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/blank.png");
+
+    /* Full height */
+    height: inherit;
+    width: inherit;
+    /* Center and scale the image nicely */
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#secondContainer,
+#secondContainer img {
+	float:left;
+}
+
+.secondBg {
+	   /* The image used */
+    background-image: url("../img/filledCircle.png");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.txtCaption {
+	background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 8px;
+    z-index: 1;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}

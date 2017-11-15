@@ -1,4 +1,2 @@
-app/.elasticbeanstalk/*
-app/!.elasticbeanstalk/*.cfg.yml
-app/!.elasticbeanstalk/*.global.yml
-
+/ml/catcheese/catCheeseLearning/
+/app/node_modules/
